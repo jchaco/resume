@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#7A1E2B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <title>Multi-Omics &amp; Biomarker Discovery</title>
+  <path d="M7 3c0 3.8 10 4.8 10 9s-10 5.2-10 9"/>
+  <path d="M17 3c0 3.8-10 4.8-10 9s10 5.2 10 9"/>
+  <path d="M8.5 5h7"/>
+  <path d="M9.4 8.5h5.2"/>
+  <path d="M8.8 12h6.4"/>
+  <path d="M9.4 15.5h5.2"/>
+  <path d="M8.5 19h7"/>
+</svg>

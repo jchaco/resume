@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#7A1E2B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<title>Reproducible Computational Research</title>
+    <circle cx="6" cy="4" r="2.2"/>
+    <circle cx="6" cy="20" r="2.2"/>
+    <circle cx="18" cy="6" r="2.2"/>
+    <path d="M6 6.2v11.6"/>
+    <path d="M18 8.2v1.3a5.6 5.6 0 0 1-5.6 5.6H6"/>
+    
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#7A1E2B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <title>Clinical Data &amp; Real-World Evidence</title>
+  <ellipse cx="12" cy="5" rx="7.5" ry="2.5"/>
+  <path d="M4.5 5v4.8"/>
+  <path d="M19.5 5v4.8"/>
+  <ellipse cx="12" cy="9.8" rx="7.5" ry="2.5"/>
+  <path d="M4.5 9.8v5"/>
+  <path d="M19.5 9.8v5"/>
+  <ellipse cx="12" cy="14.8" rx="7.5" ry="2.5"/>
+  <path d="M4.5 14.8v4.2"/>
+  <path d="M19.5 14.8v4.2"/>
+  <path d="M4.5 19c0 1.4 3.4 2.5 7.5 2.5s7.5-1.1 7.5-2.5"/>
+</svg>

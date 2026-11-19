@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7a1e2b">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="My research has spanned monogenic neurodegeneration, cancer biology, and antimicrobial resistance, applying computational methods to understand diverse human diseases. Today, I develop statistical models and computational pipelines integrating molecular profiling with longitudinal clinical data for biomarker discovery and risk prediction in cardiovascular, kidney, metabolic, and coronary diseases.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jonathan Chacon-Barahona">
+  <meta property="og:description" content="My research has spanned monogenic neurodegeneration, cancer biology, and antimicrobial resistance, applying computational methods to understand diverse human diseases. Today, I develop statistical models and computational pipelines integrating molecular profiling with longitudinal clinical data for biomarker discovery and risk prediction in cardiovascular, kidney, metabolic, and coronary diseases.">
+  <meta name="author" content="Jonathan Chacon-Barahona">
+  <title>Jonathan Chacon-Barahona</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css?v=20261119f">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Résumé link omitted: no résumé file is in this project.
+       When one exists, add it to the header nav, for example:
+       <a href="assets/resume.pdf">Résumé</a> -->
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top">Jonathan Chacon-Barahona</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#research">Featured Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#code">Code</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero wrap" aria-labelledby="name-title">
+      <p class="role">PhD Candidate in Computational Biology &amp; Medicine · Weill Cornell Medicine - Cornell University</p>
+      <h1 id="name-title">Jonathan <span class="surname">Chacon-Barahona</span></h1>
+      <div class="lede-block">
+        <p class="lede">My research has spanned monogenic neurodegeneration, cancer biology, and antimicrobial resistance, applying computational methods to understand diverse human diseases.</p>
+        <p class="lede">Today, I develop statistical models and computational pipelines integrating molecular profiling with longitudinal clinical data for biomarker discovery and risk prediction in cardiovascular, kidney, metabolic, and coronary diseases.</p>
+      </div>
+      <div id="expertise" class="expertise-block" aria-labelledby="expertise-title">
+        <h3 id="expertise-title">Areas of Expertise</h3>
+        <ul class="focus-grid">
+          <li>
+            <img class="focus-icon" src="assets/expertise-multiomics.svg" alt="" width="30" height="30" decoding="async">
+            <h3 class="focus-title">Multi-Omics &amp; Biomarker Discovery</h3>
+          </li>
+          <li>
+            <img class="focus-icon" src="assets/expertise-clinical-data.svg" alt="" width="30" height="30" decoding="async">
+            <h3 class="focus-title">Clinical Data &amp; Real-World Evidence</h3>
+          </li>
+          <li>
+            <img class="focus-icon" src="assets/expertise-predictive-modeling.svg" alt="" width="30" height="30" decoding="async">
+            <h3 class="focus-title">Predictive Modeling &amp; Validation</h3>
+          </li>
+          <li>
+            <img class="focus-icon" src="assets/expertise-computational-research.svg" alt="" width="30" height="30" decoding="async">
+            <h3 class="focus-title">Reproducible Computational Research</h3>
+          </li>
+        </ul>
+        <p class="actions">
+          <a class="button" href="#research">Explore research</a>
+          <a class="text-action" href="#publications">Publications</a>
+          <a class="text-action" href="#code">Code</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="band" id="research" aria-labelledby="research-title">
+      <div class="wrap">
+        <h2 id="research-title">Featured Research</h2>
+        <p class="section-lead">Two first-author studies connect blood metabolite profiles with clinical measurements and longitudinal outcomes. They are research evaluations of biomarkers and prediction models.</p>
+
+        <article class="project" id="ckm" aria-labelledby="ckm-title">
+          <div class="project-meta">
+            <p class="index">01</p>
+            <p class="status">Preprint · under review</p>
+            <ul class="facts">
+              <li>54,933 participants</li>
+              <li>250 NMR biomarkers</li>
+              <li>Longitudinal EHR outcomes</li>
+              <li>External validation with 248,006 UK Biobank participants</li>
+            </ul>
+          </div>
+          <div class="project-body">
+            <h3 id="ckm-title">Cardiovascular–kidney–metabolic risk stratification</h3>
+            <p>An NMR blood profile was evaluated in 54,933 Kaiser Permanente Research Bank participants to test whether 250 biomarkers add predictive value beyond standard clinical risk models. Endpoints cover nine cardiovascular–kidney–metabolic diseases and downstream complications, ascertained from longitudinal electronic health records.</p>
+            <p>For selected outcomes, discrimination improved by approximately ΔC-index +0.05 to +0.08. The study assessed calibration and decision-curve clinical net benefit, and compared the NMR profile with polygenic risk scores.</p>
+            <p>Methods include penalized survival models, EHR phenotyping, and subgroup analyses. Models were transported from UK Biobank (248,006 participants) to Kaiser Permanente while addressing shifts in metabolite distributions. This is a 2026 medRxiv preprint; the manuscript is under review.</p>
+            <p class="links">
+              <a href="https://doi.org/10.64898/2026.10.01.26364322" target="_blank" rel="noopener noreferrer">Read preprint</a>
+              <a href="https://github.com/krumsieklab/kprb-nmr-risk-strat" target="_blank" rel="noopener noreferrer">Analysis code</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project" id="rv" aria-labelledby="rv-title">
+          <div class="project-meta">
+            <p class="index">02</p>
+            <p class="status">Peer-reviewed · 2026</p>
+            <ul class="facts">
+              <li>979 participants</li>
+              <li>636 LC-MS metabolites</li>
+              <li>Cardiac MRI and echocardiography</li>
+              <li><cite>Circulation Research</cite></li>
+            </ul>
+          </div>
+          <div class="project-body">
+            <h3 id="rv-title">Right ventricular metabolomics in pulmonary hypertension</h3>
+            <p>In the NIH-funded multicenter PVDOMICS cohort, untargeted LC-MS measured 636 metabolites in 979 participants. Right ventricular function was characterized with cardiac MRI and echocardiography.</p>
+            <p>170 metabolites were associated with all three right ventricular function measures studied. Implicated pathways include vitamin A, glutathione and oxidative stress, fatty acids, and steroid hormones. The analysis examined heterogeneity by pulmonary hypertension subgroup, hemodynamics, and sex.</p>
+            <p>LASSO metabolite scores for the right ventricular measurements showed prognosis for death or transplant comparable to the underlying imaging measurements. The scores are a research evaluation alongside those measurements.</p>
+            <p class="links">
+              <a href="https://doi.org/10.1161/CIRCRESAHA.125.327342" target="_blank" rel="noopener noreferrer">Read paper</a>
+              <a href="https://github.com/krumsieklab/ph-rv-metabolomics" target="_blank" rel="noopener noreferrer">Analysis code</a>
+            </p>
+          </div>
+        </article>
+
+        <aside class="also" aria-labelledby="also-title">
+          <h3 id="also-title">Also investigating</h3>
+          <h4>Treatment response</h4>
+          <p>Ongoing work uses clinical records and molecular profiles to predict responders and non-responders to GLP-1 receptor agonists and statins, in UK Biobank and Kaiser Permanente.</p>
+          <h4>Genetic bias in HbA1c</h4>
+          <p>With the Cornell Center for Health Equity, a Kaiser Permanente analysis quantifies how known inherited variants can shift HbA1c, including G6PD-related underestimation enriched in certain genetic ancestries. Alternative NMR-based risk scores were evaluated for genetic bias, finding no significant genetic bias and improved diabetes risk prediction over HbA1c-based models in at-risk subgroups (manuscript in preparation).</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band" id="publications" aria-labelledby="publications-title">
+      <div class="wrap">
+        <h2 id="publications-title">Publications (9)</h2>
+        <p class="section-lead">Peer-reviewed papers and one preprint, listed separately.</p>
+
+        <!-- Bibliography note: 9 peer-reviewed papers and 1 medRxiv preprint.
+             The CHEST 2026 paper has no URL yet. When a DOI or journal link exists, wrap its title in the same pub-title anchor used by the other entries. -->
+
+        <h3 class="group-title" id="preprint-heading">Preprint / under review</h3>
+        <p class="note">Not a peer-reviewed publication. The manuscript is under review.</p>
+        <ol class="pub-list" aria-labelledby="preprint-heading">
+          <li>
+            <a class="pub-title" href="https://doi.org/10.64898/2026.10.01.26364322" target="_blank" rel="noopener noreferrer">NMR metabolomics for cardiovascular–kidney–metabolic risk stratification in an integrated healthcare system</a>
+            <p class="pub-authors"><strong>Chacon-Barahona J</strong>, Iribarren C, Rana J, Rinetti Vargas G, Rowell S, Elemento O, Suhre K, Absher D, Krumsiek J.</p>
+            <p class="pub-meta"><cite>medRxiv</cite> · 2026 · <a href="#ckm">Featured research</a></p>
+          </li>
+        </ol>
+
+        <h3 class="group-title" id="peer-heading">Peer-reviewed</h3>
+        <ol class="pub-list" aria-labelledby="peer-heading">
+          <li>
+            <a class="pub-title" href="https://doi.org/10.1161/CIRCRESAHA.125.327342" target="_blank" rel="noopener noreferrer">Metabolomics of Right Ventricular Function in Pulmonary Hypertension</a>
+            <p class="pub-authors"><strong>Chacon-Barahona J</strong>, Chung SJ, Garry JD, et al.</p>
+            <p class="pub-meta"><cite>Circulation Research</cite> · 2026 · <a href="#rv">Featured research</a></p>
+          </li>
+          <li>
+            <span class="pub-title">DHEA-S in Pulmonary Hypertension: Insights from PVDOMICS</span>
+            <p class="pub-authors">Garry JD, <strong>Chacon-Barahona J</strong>, Chung SJ, et al.</p>
+            <p class="pub-meta"><cite>CHEST</cite> · November 2026</p>
+          </li>
+          <li>
+            <a class="pub-title" href="https://doi.org/10.1016/j.immuni.2024.10.015" target="_blank" rel="noopener noreferrer">Cancer cells restrict immunogenicity of retrotransposon expression via distinct mechanisms</a>
+            <p class="pub-authors">Sun S, You E, Hong J, Hoyos D, Del Priore I, Tsanov KM, Mattagajasingh O, Gioacchino AD, Marhon SA, <strong>Chacon-Barahona J</strong>, et al.</p>
+            <p class="pub-meta"><cite>Immunity</cite> · 2024</p>
+          </li>
+          <li>
+            <a class="pub-title" href="https://doi.org/10.1093/jambio/lxae252" target="_blank" rel="noopener noreferrer">Genomic characterization of antibiotic-resistant Staphylococcus epidermidis with observed shifts in optimal temperature</a>
+            <p class="pub-authors">Boyd SM, <strong>Chacon-Barahona JA</strong>, Mira P, Dey D, Chun D, Xue C, Pulido S, Yeh P.</p>
+            <p class="pub-meta"><cite>Journal of Applied Microbiology</cite> · 2024</p>
+          </li>
+          <li>
+            <a class="pub-title" href="https://doi.org/10.1111/eva.13608" target="_blank" rel="noopener noreferrer">The evolution of resistance to synergistic multi-drug combinations is more complex than evolving resistance to each individual drug component</a>
+            <p class="pub-authors">Lozano-Huntelman NA, Bullivant A, <strong>Chacon-Barahona J</strong>, et al.</p>
+            <p class="pub-meta"><cite>Evolutionary Applications</cite> · 2023</p>
+          </li>
+          <li>
+            <a class="pub-title" href="https://doi.org/10.3390/cancers15041158" target="_blank" rel="noopener noreferrer">Unique Metabolic Contexts Sensitize Cancer Cells and Discriminate between Glycolytic Tumor Types</a>
+            <p class="pub-authors"><strong>Chacon-Barahona JA</strong>, MacKeigan JP, Lanning NJ.</p>
+            <p class="pub-meta"><cite>Cancers</cite> · 2023</p>
+          </li>
+          <li>
+            <a class="pub-title" href="https://doi.org/10.3390/metabo11120859" target="_blank" rel="noopener noreferrer">Lung Adenocarcinoma Transcriptomic Analysis Predicts Adenylate Kinase Signatures Contributing to Tumor Progression and Negative Patient Prognosis</a>
+            <p class="pub-authors"><strong>Chacon-Barahona JA</strong>, Salladay-Perez IA, Lanning NJ.</p>
+            <p class="pub-meta"><cite>Metabolites</cite> · 2021</p>
+          </li>
+          <li>
+            <a class="pub-title" href="https://doi.org/10.1186/s13041-019-0446-3" target="_blank" rel="noopener noreferrer">ZnT3 expression levels are down-regulated in the brain of Mcoln1 knockout mice</a>
+            <p class="pub-authors"><strong>Chacon J</strong>, Rosas L, Cuajungco MP.</p>
+            <p class="pub-meta"><cite>Molecular Brain</cite> · 2019</p>
+          </li>
+          <li>
+            <a class="pub-title" href="https://pubmed.ncbi.nlm.nih.gov/30381788/" target="_blank" rel="noopener noreferrer">Comparative De Novo Transcriptome Assembly of Notophthalmus viridescens RNA-seq Data using Two Commercial Software Programs</a>
+            <p class="pub-authors"><strong>Chacon J</strong>, Cuajungco MP.</p>
+            <p class="pub-meta"><cite>Californian Journal of Health Promotion</cite> · 2018</p>
+          </li>
+        </ol>
+        <p class="biblio-link"><a href="https://www.ncbi.nlm.nih.gov/myncbi/jonathan.chacon-barahona.1/bibliography/public/" target="_blank" rel="noopener noreferrer">NCBI bibliography</a></p>
+      </div>
+    </section>
+
+    <section class="band" id="code" aria-labelledby="code-title">
+      <div class="wrap">
+        <h2 id="code-title">Code</h2>
+        <p class="section-lead">Public R and Jupyter workflows for the two featured studies, maintained with the Krumsiek Lab. Each repository contains analysis notebooks, statistical workflows, and <code>renv</code> package metadata, and does not include individual-level clinical data or fitted models.</p>
+
+        <article class="project repo" aria-labelledby="repo-ckm-title">
+          <div class="project-meta">
+            <p class="index">01</p>
+            <p class="repo-path"><span>krumsieklab/</span><span>kprb-nmr-risk-strat</span></p>
+          </div>
+          <div class="project-body">
+            <h3 id="repo-ckm-title">CKM risk stratification pipeline</h3>
+            <p>Notebooks for the Kaiser Permanente NMR risk study, including clinical benchmarking and model transport from UK Biobank.</p>
+            <p class="links">
+              <a href="https://github.com/krumsieklab/kprb-nmr-risk-strat" target="_blank" rel="noopener noreferrer">View repository</a>
+              <a href="#ckm">Related study</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project repo" aria-labelledby="repo-rv-title">
+          <div class="project-meta">
+            <p class="index">02</p>
+            <p class="repo-path"><span>krumsieklab/</span><span>ph-rv-metabolomics</span></p>
+          </div>
+          <div class="project-body">
+            <h3 id="repo-rv-title">RV metabolomics analysis pipeline</h3>
+            <p>Notebooks for metabolite associations, pathway analysis, subgroup checks, and metabolite scores in PVDOMICS.</p>
+            <p class="links">
+              <a href="https://github.com/krumsieklab/ph-rv-metabolomics" target="_blank" rel="noopener noreferrer">View repository</a>
+              <a href="#rv">Related study</a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="band" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-layout">
+        <div>
+          <h2 id="contact-title">Contact</h2>
+          <p class="section-lead">Questions about the studies, the methods, or collaboration are welcome.</p>
+          <a class="email" href="mailto:jachacon207@gmail.com">jachacon207@gmail.com</a>
+        </div>
+        <ul class="contact-links">
+          <li><a href="https://github.com/jchaco" target="_blank" rel="noopener noreferrer">GitHub · jchaco</a></li>
+          <li><a href="https://orcid.org/0009-0008-9309-8292" target="_blank" rel="noopener noreferrer">ORCID</a></li>
+          <li><a href="https://www.linkedin.com/in/jonathan-chacon-barahona-60b867aa/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://www.krumsieklab.org/" target="_blank" rel="noopener noreferrer">Krumsiek Lab</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p><strong>Jonathan Chacon-Barahona</strong><br>
+        Department of Systems and Computational Biomedicine<br>
+        Weill Cornell Medicine · New York, NY</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+</body>
+</html>
